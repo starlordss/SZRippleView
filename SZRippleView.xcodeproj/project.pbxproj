@@ -13,6 +13,7 @@
 		0191880E1F965C3E00FFF06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0191880D1F965C3E00FFF06E /* Assets.xcassets */; };
 		019188111F965C3E00FFF06E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0191880F1F965C3E00FFF06E /* LaunchScreen.storyboard */; };
 		019188141F965C3E00FFF06E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 019188131F965C3E00FFF06E /* main.m */; };
+		0191881D1F965CFB00FFF06E /* SZRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0191881C1F965CFB00FFF06E /* SZRippleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		019188101F965C3E00FFF06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		019188121F965C3E00FFF06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		019188131F965C3E00FFF06E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0191881B1F965CFB00FFF06E /* SZRippleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZRippleView.h; sourceTree = "<group>"; };
+		0191881C1F965CFB00FFF06E /* SZRippleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZRippleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		019188031F965C3E00FFF06E /* SZRippleView */ = {
 			isa = PBXGroup;
 			children = (
+				0191881A1F965C8400FFF06E /* SZRippleView */,
 				019188041F965C3E00FFF06E /* AppDelegate.h */,
 				019188051F965C3E00FFF06E /* AppDelegate.m */,
 				019188071F965C3E00FFF06E /* ViewController.h */,
@@ -67,6 +71,15 @@
 				0191880F1F965C3E00FFF06E /* LaunchScreen.storyboard */,
 				019188121F965C3E00FFF06E /* Info.plist */,
 				019188131F965C3E00FFF06E /* main.m */,
+			);
+			path = SZRippleView;
+			sourceTree = "<group>";
+		};
+		0191881A1F965C8400FFF06E /* SZRippleView */ = {
+			isa = PBXGroup;
+			children = (
+				0191881B1F965CFB00FFF06E /* SZRippleView.h */,
+				0191881C1F965CFB00FFF06E /* SZRippleView.m */,
 			);
 			path = SZRippleView;
 			sourceTree = "<group>";
@@ -143,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				019188091F965C3E00FFF06E /* ViewController.m in Sources */,
+				0191881D1F965CFB00FFF06E /* SZRippleView.m in Sources */,
 				019188141F965C3E00FFF06E /* main.m in Sources */,
 				019188061F965C3E00FFF06E /* AppDelegate.m in Sources */,
 			);
