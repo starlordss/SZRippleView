@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SZRippleView.h"
 
 @interface ViewController ()
 
@@ -16,14 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = SZHexColor(0xfafbff);
+    
+    SZRippleView *rippleView = [[SZRippleView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 250) startColor:SZHexColorA(0x90cfed, 0.7) endColor:SZHexColorA(0xff785c, 0.7)];
+    
+    [self.view addSubview:rippleView];
+    
+    
+    
+    
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
